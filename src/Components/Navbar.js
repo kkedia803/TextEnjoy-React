@@ -22,7 +22,7 @@ export default function Navbar(props) {
                             </li>
                         </ul>
                         <div className="form-check form-switch text-light">
-                            <input className="form-check-input my-1" type="checkbox" onClick={props.toggleMode} role="switch" id="flexSwitchCheckDefault" />Dark
+                            <input className="form-check-input my-1 bg-secondary" type="checkbox" onClick={props.toggleMode} role="switch" id="flexSwitchCheckDefault" />Dark
                         </div>
                         <div className='bg-success rounded mx-2 my-1' onClick={props.greMode} style={{ height: '30px', width: '30px', cursor: 'pointer' }}></div>
                         <div className='bg-danger rounded mx-2 my-1' onClick={props.redMode} style={{ height: '30px', width: '30px', cursor: 'pointer' }}></div>
